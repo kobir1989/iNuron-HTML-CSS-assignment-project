@@ -223,6 +223,7 @@ ul li:hover {
 .card {
   margin: 4rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 .card img {
   width: 28rem;
@@ -230,14 +231,11 @@ ul li:hover {
   border-radius: 8px;
 }
 .card h4 {
-  text-align: center;
   font-size: 2rem;
   padding: 1rem 0;
 }
 .card p {
-  text-align: center;
-  font-size: 1.2rem;
-  color: #808080;
+  font-size: 0.8rem;
 }
 .see-more-btn {
   text-align: center;
@@ -422,7 +420,7 @@ border-bottom {
     height: 30rem;
   }
   .card p {
-    width: 80%;
+    width: 100%;
   }
   .see-more-btn {
     text-align: center;
@@ -483,7 +481,7 @@ border-bottom {
   }
 
   .heading-main {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .header-cover img {
     height: 25rem;
@@ -494,73 +492,86 @@ border-bottom {
     margin: 1%;
   }
   .header-intro p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 2%;
+    width: 50%;
+  }
+  .email-btn {
+    opacity: 0;
   }
   .header-intro form {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    width: 11rem;
+    height: 4rem;
   }
   .header-intro form input {
-    font-size: 1rem;
-    width: 80%;
+    font-size: 0.6rem;
+    width: 10rem;
+
+    height: 1.5rem;
   }
   .header-intro form input:focus {
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   .intro-main-div {
     padding: 3% 0;
   }
   .heading-secondary {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding-bottom: 6rem;
   }
   .information {
-    gap: 3rem;
+    gap: 1rem;
   }
   .information h4 {
-    font-size: 1.6rem;
+    font-size: 0.9rem;
   }
   .information p {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
   .meating-img img {
-    width: 45rem;
-    height: 20rem;
+    width: 30rem;
+    height: 15rem;
   }
 
   .survice-div h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding-top: 3rem;
   }
   .survice {
     padding-top: 3rem;
   }
   .survice-text {
-    padding: 1rem;
-    width: 20rem;
+    padding: 0 1rem;
+    width: 15rem;
   }
   .survice h3 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     padding-bottom: 1.5rem;
   }
   .survice p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   .survice img {
-    width: 25rem;
+    width: 18rem;
     min-height: 20rem;
-    margin: 0 4rem;
+    margin: 0 2rem;
   }
 
   .teams-text {
-    gap: 4rem;
-    padding: 8rem 0;
+    gap: 2rem;
+    padding: 6rem 0;
   }
   .teams-text h4 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+    width: 6rem;
+    padding: 0.5rem;
   }
   .teams-text p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   .card-div {
     display: flex;
@@ -571,8 +582,40 @@ border-bottom {
     margin: 2rem;
     width: 30rem;
   }
+  .card h4 {
+    font-size: 1.2rem;
+  }
+  .card p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
   .card img {
     width: 30rem;
     height: 35rem;
+  }
+
+  .footer-nav img {
+    width: 4rem;
+    height: 1.5rem;
+  }
+
+  .icon-social i {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+
+  .footer-links {
+    gap: 3%;
+  }
+  .link h5 {
+    font-size: 0.7rem;
+    padding: 1rem 0;
+  }
+  .link p {
+    font-size: 0.5rem;
+    padding-top: 1rem;
+  }
+  .footer {
+    padding-bottom: 2%;
   }
 }
