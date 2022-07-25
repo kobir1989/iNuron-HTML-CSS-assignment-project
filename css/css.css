@@ -57,9 +57,8 @@ ul li:hover {
   color: rgb(219, 209, 248);
 }
 .nav-btn {
-  position: absolute;
-  right: 3%;
-  top: 35%;
+  float: right;
+  padding: 2rem;
 }
 
 .nav-btn button {
@@ -466,30 +465,55 @@ border-bottom {
 @media (max-width: 700px) {
   header {
     width: 106%;
-    height: 110vh;
+    height: 100vh;
+  }
+  nav {
+    padding: 3%;
   }
   nav img {
-    width: 8rem;
+    width: 4rem;
+    height: 1rem;
+  }
+  nav ul {
+    margin-left: 10%;
+  }
+  ul li {
+    margin: 0 1rem;
+    font-size: 0.5rem;
   }
 
-  ul li {
-    visibility: hidden;
+  .nav-btn {
+    right: 3%;
+    top: 35%;
+    margin: auto;
   }
 
   .nav-btn button {
-    margin-right: 3rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    width: 5rem;
   }
 
-  .heading-main {
-    font-size: 1.5rem;
+  .header-main {
+    margin: auto;
+    width: 80%;
   }
+  .heading-main {
+    font-size: 2rem;
+    padding-left: 2%;
+  }
+  .header-cover {
+    margin: 0.2rem;
+    padding: 0.9rem;
+  }
+
   .header-cover img {
-    height: 25rem;
-    width: 18rem;
+    height: 30rem;
+    width: 22rem;
   }
 
   .header-intro {
-    margin: 1%;
+    padding: 4%;
   }
   .header-intro p {
     font-size: 0.8rem;
