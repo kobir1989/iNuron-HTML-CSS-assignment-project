@@ -300,6 +300,7 @@ border-bottom {
 @media (max-width: 1340px) {
   header {
     width: 105%;
+    height: 100vh;
   }
   nav img {
     width: 8rem;
