@@ -6,7 +6,7 @@ HTML and CSS iNuron Assignment Project-2 responsive in laptop secreen and mobile
 
 ![img](https://img.shields.io/badge/HTML-5-yellowgreen) ![img](https://img.shields.io/badge/CSS-3-red)
 
-### Deployed website link [Netlify](https://app.netlify.com/sites/lanister-html/overview)
+### Deployed website link [Netlify](https://lanister-html.netlify.app/)
 
 ## What I have learned in this project?
 
